@@ -1,2 +1,2 @@
 # SoftUni
-Small Projects from the Software University Bulgaria.
+Small projects from the Software University Bulgaria.
