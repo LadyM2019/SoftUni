@@ -2,7 +2,7 @@
 
 ### Courses:
 * [Python Basics](./Python-Basics)
-* [Python Fundamentals](./Pthon-Fundamentals)
+* [Python Fundamentals](./Python-Fundamentals)
 
 Tasks written in Python are intended for **Python 3** (Built in 3.6)
 
