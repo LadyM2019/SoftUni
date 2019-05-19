@@ -1,8 +1,8 @@
 ## Python projects part of the Python Development path in the Software Univeristy.
 
 ### Courses:
-* [Python Basics](./Python Basics)
-* [Python Fundamentals](./Python Fundamentals)
+* [Python Basics](./Python-Basics)
+* [Python Fundamentals](./Pthon-Fundamentals)
 
 Tasks written in Python are intended for **Python 3** (Built in 3.6)
 
