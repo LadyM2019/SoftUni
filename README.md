@@ -1,5 +1,4 @@
-# SoftUni
-Projects from the Software University Bulgaria.
+
 <h1 align="center">Software University</h1>
 
 <p align="center">Projects from the Software University - Bulgaria</p>
