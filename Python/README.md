@@ -1,4 +1,4 @@
-## Python projects part of the Python Development path in the Software Univeristy - Bulgaria.
+## Python projects part of the Python Development path in the Software Univeristy.
 
 ### Courses:
 * [Python Basics](./Python-Basics)
