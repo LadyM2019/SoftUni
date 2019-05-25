@@ -2,9 +2,11 @@
 A hotel offers 2 types of rooms: studio and apartment. Write a program that calculates the price for the total stay in
 the corresponding type of room.
 Prices per night:
+------------------------------------------------------------------------------------------------------------------------
             May and October                         June and September                      July and August
 Studio    -     50BGN                                   75.20BGN                                76BGN
 Apartment -     65BGN                                   68.70BGN                                77BGN
+------------------------------------------------------------------------------------------------------------------------
 
 The following discounts are available:
 • For a studio with more than 7 nights in May and October: 5% discount.

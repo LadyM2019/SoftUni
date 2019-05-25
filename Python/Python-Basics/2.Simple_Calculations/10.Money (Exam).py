@@ -50,7 +50,7 @@ def commission(total_money, commission_rate):
     return total_money * commission_rate
 
 
-if __name__ == '__main__':
+def main():
     bitcoins = int(input("Enter the amount of bitcoins: "))
     chinese_money = float(input("Enter the amount of Chinese currency: "))
     commission_rate = float(input("Enter the commission rate: ")) / 100      # % of commission
@@ -59,3 +59,7 @@ if __name__ == '__main__':
     commission_amount = commission(EUR, commission_rate)
     final_amount_in_eur = EUR - commission_amount
     print(f"The final amount in EUR is {final_amount_in_eur}")
+
+
+if __name__ == '__main__':
+    main()
