@@ -1,3 +1,4 @@
+# 24th April 2016 - SoftUni exam question.
 """
 Lilly is already N years old. For her birthday every year, she receives a gift. For odd birthdays(1,3,5..n) she receives
 toys and for even birthdays(2,4,6..n) she receives money. For her second birthday she receives 10$ and this amount

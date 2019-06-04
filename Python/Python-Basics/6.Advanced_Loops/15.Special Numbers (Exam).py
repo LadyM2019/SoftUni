@@ -1,6 +1,6 @@
 # 24th April 2016 - SoftUni exam question.
 """
-Write a program that reads an integer(N) and outputs all possible "special" numbers between 1111 до 9999.
+Write a program that reads an integer(N) and outputs all possible "special" numbers between 1111 and 9999.
 In order a number to be a special one, N must to be divisible by all of his digits without remainder.
 Example:
 N = 16  => Special Numbers = 2418
