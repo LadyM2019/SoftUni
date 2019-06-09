@@ -1,6 +1,6 @@
 # [Programming Basics - Python](https://softuni.bg/trainings/2328/programming-basics-with-python-april-2019)
 
- ## Exercises
+   ## Exercises
 * [First Steps in Coding](./1.First_Steps_in_Coding)
 
 * [Simple Calculations](./2.Simple_Calculations)
