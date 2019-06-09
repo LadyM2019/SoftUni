@@ -14,7 +14,7 @@ Note: Format the result to 2nd decimal point.
 
 workdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 weekend = ["Saturday", "Sunday"]
-fruits = ['banana', 'apple', 'orange', 'grapefruit', 'kiwi', 'pineapple', 'grapes']  # supported fruits
+fruits = ['banana', 'apple', 'orange', 'grapefruit', 'kiwi', 'pineapple', 'grapes']   # supported fruits
 
 
 def get_price(day, fruit, quantity):
