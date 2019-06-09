@@ -16,3 +16,5 @@
 * [Advanced Loops](./7.Advanced_Loops)
 
 * [Drawing Figure with Loops](./8.Drawing_Figures_with_Loops)
+
+Note: The description of the relevant task is written within the exercise file
