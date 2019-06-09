@@ -37,5 +37,4 @@ def main():
     print(average_diploma_grade(name))
 
 
-if __name__ == '__main__':
-    main()
+main()
