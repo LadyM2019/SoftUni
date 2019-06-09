@@ -1,6 +1,6 @@
 # [Programming Basics - Python](https://softuni.bg/trainings/2328/programming-basics-with-python-april-2019)
 
-## Exercises
+### Exercises
 * [First Steps in Coding](./1.First_Steps_in_Coding)
 
 * [Simple Calculations](./2.Simple_Calculations)
@@ -16,5 +16,6 @@
 * [Advanced Loops](./7.Advanced_Loops)
 
 * [Drawing Figure with Loops](./8.Drawing_Figures_with_Loops)
+
 
 Note: The description of the relevant task is written within the exercise file
