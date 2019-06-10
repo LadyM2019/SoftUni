@@ -9,9 +9,9 @@
 
 * [Complex Conditional Statements](./4.Complex_Conditional_Statements)
 
-* [Simple Loops](./5.Simple_Loops)
+* [While Loops](./5.While_Loops)
 
-* [While Loops](./6.While_Loops)
+* [Simple Loops(For Loops)](./6.Simple_Loops(For Loops))
 
 * [Advanced Loops](./7.Advanced_Loops)
 
