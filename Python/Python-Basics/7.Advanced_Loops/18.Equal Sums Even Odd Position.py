@@ -1,6 +1,6 @@
 """
 Write a program that reads 2 integer numbers - the second one always being greater than the first one and prints all the
-number in between them that have a sum of the numbers at even positions equal to the sum of the numbers at odd positions
+number in between them that have a sum of the numbers at even positions equal to the sum of the numbers at odd positions.
 """
 
 
