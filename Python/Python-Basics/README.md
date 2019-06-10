@@ -11,7 +11,7 @@
 
 * [While Loops](./5.While_Loops)
 
-* [Simple Loops - For Loops](./6.Simple_Loops - For Loops)
+* [Simple Loops - For Loops](https://github.com/AlexDimitro0v/SoftUni/tree/master/Python/Python-Basics/6.Simple_Loops%20-%20For%20Loops)
 
 * [Advanced Loops](./7.Advanced_Loops)
 
