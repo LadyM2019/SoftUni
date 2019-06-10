@@ -11,7 +11,7 @@
 
 * [While Loops](./5.While_Loops)
 
-* [Simple Loops(For Loops)](./6.Simple_Loops - For Loops)
+* [Simple Loops - For Loops](./6.Simple_Loops - For Loops)
 
 * [Advanced Loops](./7.Advanced_Loops)
 
