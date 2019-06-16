@@ -50,7 +50,7 @@ The **age range** is as follows:
 The **salary range** is as follows:
 -   If the salary is **less than \$500**, it is “**low**”
 -   If the salary is **less than \$2000**, it is “**medium**”
--   Otherwise, the salary is “**high**”
+-   Otherwise, the salary is “**high**”  
 NOTE: Format the **salary** to the **2nd decimal point**.
 
 ### Examples
@@ -74,7 +74,7 @@ NOTE: Format the **salary** to the **2nd decimal point**.
 4.Numbers from 1 to 10
 --------------------
 
-Write a simple **for loop**, with which to print all the **numbers from 1 to 10 on separatelines**.
+Write a simple **for loop**, with which to print all the **numbers from 1 to 10 on separatelines**.  
 Use the **range()** function.
 
 ### Examples
@@ -97,7 +97,7 @@ Use the **range()** function.
 
 5.Numbers with Step
 -----------------
-Write a python program, which receives a **start number**, an **end number** and a **step**. Write a simple **for loop**, which prints all the numbers from the **start number** to the **end number**, using the **specified step**. Print the numbers on **separate lines**.
+Write a python program, which receives a **start number**, an **end number** and a **step**. Write a simple **for loop**, which prints all the numbers from the **start number** to the **end number**, using the **specified step**. Print the numbers on **separate lines**.  
 Use the **range()** function.
 
 ### Examples
