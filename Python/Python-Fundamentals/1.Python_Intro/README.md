@@ -1,7 +1,7 @@
 Exercises: Python Intro
 =======================
-Problems for exercises and homework for the [“Python Fundamentals” course @SoftUni](https://softuni.bg/opencourses/python-fundamentals-course).
-You can check your solutions here: [https://judge.softuni.bg/Contests/917](%20https://judge.softuni.bg/Contests/917).
+Problems for exercises and homework for the [“Python Fundamentals” course @SoftUni](https://softuni.bg/opencourses/python-fundamentals-course).\
+You can check your solutions here: [https://judge.softuni.bg/Contests/917](https://judge.softuni.bg/Contests/917).
 
 
 1.Hello World
