@@ -16,8 +16,8 @@ Write a Python program that prints out a simple “**Hello World!**” to get ac
 
 2.Person Info
 -----------
-Write a Python program, which reads a person’s **name**, **age**, **town** and **salary**, and prints it back to the **console** with the **following format**:
-“**{name} is {age} years old, is from {town} and makes \${salary}**”
+Write a Python program, which reads a person’s **name**, **age**, **town** and **salary**, and prints it back to the **console** with the **following format**:/
+“**{name} is {age} years old, is from {town} and makes \${salary}**”/
 *Note: Leave floating point numbers unformatted.*
 
 ### Examples
