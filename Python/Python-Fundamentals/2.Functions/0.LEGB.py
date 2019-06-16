@@ -34,7 +34,7 @@ stri = 'hello World'
 fun()
 print(stri)
 
-print('-------------------------------')
+print('--------------------------------')
 
 
 # ____________________wild combination of local and global var ________________________
