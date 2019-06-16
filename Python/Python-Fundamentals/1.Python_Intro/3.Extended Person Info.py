@@ -11,7 +11,7 @@ def display_person_info(name, age, town, salary):
 
     if salary < 500:
         salary_range = "low"
-    elif salary < 2000:    # if 500 <= salary < 2000:
+    elif salary < 2000:   # if 500 <= salary < 2000:
         salary_range = "medium"
     else:
         salary_range = "high"
