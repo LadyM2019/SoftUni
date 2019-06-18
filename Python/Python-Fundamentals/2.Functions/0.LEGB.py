@@ -71,6 +71,6 @@ def f():
 
 
 f()
-print("The variable in main: " + str(variable))         # 43
+print("The variable in main: " + str(variable))     # 43
 # Using globals should be a must - they should be avoided as using globals may seem convenient at first.
 # But the practice can make the code hard to debug and organize into modules.
