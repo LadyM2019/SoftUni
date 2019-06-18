@@ -1,7 +1,6 @@
-# number = abs(int(input())) works the same if it is initialized here
 def sum_of_evens(num):
     even_sum = 0
-    # number=int(input())
+    # num = int(input())
     for digit in str(num):
         if int(digit) % 2 == 0:
             even_sum += int(digit)
@@ -10,7 +9,7 @@ def sum_of_evens(num):
 
 def sum_of_odds(num):
     odd_sum = 0
-    # number=int(input())
+    # num = int(input())
     for digit in str(num):
         if int(digit) % 2 == 1:
             odd_sum += int(digit)
