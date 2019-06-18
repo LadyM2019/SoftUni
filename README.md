@@ -8,6 +8,7 @@
 <br/>
 
 <h2> Certificates </h2>
+
 | Course | Certificate |
 | ------ | ----------- |
 | [Programming Basics - Python](https://softuni.bg/trainings/1929/programming-basics-with-python-april-2018) | [Link](https://softuni.bg/certificates/details/66656/85537e13)|
