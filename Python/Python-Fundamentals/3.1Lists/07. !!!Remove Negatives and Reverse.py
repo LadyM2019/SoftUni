@@ -1,7 +1,7 @@
 def remove_negatives_and_reverse(lst):
     """
     :param   lst:    a list
-    :return: no returning value
+    :return: no returning value - modifies the list in-place
     """
     # lst = [x for x in lst if int(x) >= 0]             # 1.List Comprehension solution
     # lst = list(filter(lambda x: int(x) >= 0, lst))    # 2.Filter Built-In solution
