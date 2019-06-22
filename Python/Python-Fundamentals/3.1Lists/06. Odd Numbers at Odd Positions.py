@@ -9,9 +9,9 @@ def solve1(lst):
 # _________________________________________________________________________
 # another way
 def solve2(lst):
-    for number in range(len(lst)):
-        if number % 2 == 1 and (lst[number] % 2 != 0):
-            print(f"Index {number} -> {lst[number]}")
+    for el_index in range(len(lst)):
+        if el_index % 2 == 1 and (lst[el_index] % 2 != 0):
+            print(f"Index {el_index} -> {lst[el_index]}")
 
 
 # _________________________________________________________________________
