@@ -14,8 +14,8 @@ def greater_value(data_type, arg1, arg2):
             return arg1
         else:
             return arg2
-	else:
-		return 'Not supported data type'
+    else:
+        return 'Not supported data type'
 
 
 def main():
