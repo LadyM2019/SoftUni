@@ -61,11 +61,9 @@ def solve2(data):
     word_list = data.split()
     case_list = [['Lower-case:'], ['Mixed-case:'], ['Upper-case:']]
     for word in word_list:
-        have_mixed_char = False  # create a flag for the special symbols
-        for character in word:
-            if ord(character) in range(65):
-                have_mixed_char = True
-                break
+        have_mixed_char = False  		# create a flag for the special symbols
+        if not str(word).isalpha():		# if does not contain only letters
+            have_mixed_char = True
         if word.islower() and not have_mixed_char:
             case_list[0].append(word)
         elif word.isupper() and not have_mixed_char:
