@@ -15,6 +15,14 @@ def remove_negatives_and_reverse(lst):
     lst.reverse()           # the reverse function is void(with no return value, i.e prints None)
 
 
+# another way
+def solve():
+    numbers = [int(n) for n in input().split(' ')]
+    positives = [number for number in numbers if number >= 0]
+    result = ' '.join([str(x) for x in positives[::-1]]) if positives else 'empty'
+    print(result)
+
+
 def main():
     lst = input().split()  # split creates a list of integers
     remove_negatives_and_reverse(lst)
