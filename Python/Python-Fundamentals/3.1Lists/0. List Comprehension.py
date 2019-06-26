@@ -1,6 +1,6 @@
 lst = [1, 2, 3, 4, 5]
-lst = ['yes' if v == 1 else 'no' if v == 2 else 'idle' for v in lst]
-print(lst)
+lst_copy = ['yes' if v == 1 else 'no' if v == 2 else 'idle' for v in lst]
+print(lst_copy)
 
 # The ternary form of the if/else operator doesn't have an 'elif' built in,
 # but you can simulate it in the 'else' condition:
@@ -13,6 +13,14 @@ for v in lst:
         else:
             print('idle')
 # So there's no direct 'elif' construct, but it can be simulated with nested if/else statements
+
+# Readability counts
+number_things = [
+    (n // 2 if n % 2 == 0 else n * 3)
+    for n in lst
+]
+print(*number_things)
+
 '''
 Key Points to Remember:
 1.List comprehension is an elegant way to define and create lists based on existing lists.
@@ -26,3 +34,11 @@ but every for loop can’t be rewritten in the form of list comprehension.
 # https://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/
 # https://www.pythonforbeginners.com/basics/list-comprehensions-in-python
 # https://www.programiz.com/python-programming/list-comprehension
+
+
+"""
+Remember that comprehensions are for a single purpose: creating a new iterable from an old iterable, 
+while tweaking values slightly along the way and/or for filtering out values that don’t match a certain condition. 
+Comprehensions are a lovely tool, but they’re not your only tool. 
+Don’t forget the list and dict constructors and always consider for loops when your comprehensions get out of hand.
+"""
