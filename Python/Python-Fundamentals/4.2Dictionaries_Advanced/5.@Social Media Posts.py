@@ -22,7 +22,6 @@ def create_main_dic():
 
         data = input()
 
-    # print(posts)
     return posts
 
 
