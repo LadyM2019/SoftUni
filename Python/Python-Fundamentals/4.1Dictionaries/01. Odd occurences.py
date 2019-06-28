@@ -1,3 +1,18 @@
+def solve(lst):
+    # Dictionary Comprehension solution
+    counts = {word: lst.count(word) for word in lst}
+
+    occ_list = []
+
+    for key, value in counts.items():
+        if value % 2 == 1:
+            occ_list.append(key)
+
+    print(*occ_list, sep=', ')
+
+
+# ______________________________________________________________________________________________
+# another way
 def count_odd_occurrences1(lst):
     counts = dict()
     for item in lst:
@@ -34,7 +49,7 @@ def count_odd_occurrences2(lst):
 
 def main():
     lst = input().lower().split()
-    count_odd_occurrences1(lst)
+    solve(lst)
 
 
 if __name__ == '__main__':
