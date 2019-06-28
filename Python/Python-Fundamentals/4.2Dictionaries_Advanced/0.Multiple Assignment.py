@@ -8,14 +8,16 @@
 
 def multiple_assignment():
     data_list = [1, 2, 3, 4]
-    data_list[0], data_list[2], data_list[3] = data_list[3], data_list[1], data_list[2]
+    data_list[0], data_list[1], data_list[2], data_list[3] = data_list[3], data_list[2], data_list[1], data_list[0]
     print(data_list)
 
 
 def normal_assignment():
     data_list = [1, 2, 3, 4]
     data_list[0] = data_list[3]
+    data_list[1] = data_list[2]
     data_list[2] = data_list[1]
+    data_list[3] = data_list[0]
     print(data_list)
 
 
