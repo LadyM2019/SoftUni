@@ -7,9 +7,9 @@ These are my solutions to the tasks set by the [Software University](https://sof
 * [Python Intro](./1.Python_Intro)
 * [Functions](./2.Functions)
 * [Lists](./3.1Lists)
-* [Advanced Lists](./3.2Lists Advanced)
+* [Advanced Lists](./3.2Lists_Advanced)
 * [Dictionaries](./4.1Dictionaries)
-* [Advanced Dictionaries](./4.2Dictionaries Advanced)
+* [Advanced Dictionaries](./4.2Dictionaries_Advanced)
 
 
 Note: PDF's of the tasks description are provided in the relevant folders.
