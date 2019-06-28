@@ -11,7 +11,7 @@ print(nums)             # [1, 2, 3, 4, 5, 8, 10]      nums shouldn't be added as
 
 nums.append(
     even_nums
-    )                   # adds a list to a list....equal to              nums += [even nums]
+    )                   # adds a list to a list....equal to             nums += [even nums]
 print(nums)             # [1, 2, 3, 4, 5, 8, 10, [6, 8, 10]]
 
 my_dict.update(dic_more_nums)  # appending key:value pairs in a dic
