@@ -26,7 +26,7 @@ def solve():
         # print(value.keys())        # ex: dict_keys(['hat', 'dress', 't-shirt', 'boxers'])
         print(f"{key} clothes:")     # first key: Red, Blue....
         for item in value.keys():    # entering the inner keys
-            # print(values)          # ex: hat, dress, t-shirt (all one by one)
+            # print(item)          # ex: hat, dress, t-shirt (all one by one)
             if wanted_color == key and wanted_cloth == item:
                 print(f"* {item} - {dic[key][item]} {match}")
             else:
