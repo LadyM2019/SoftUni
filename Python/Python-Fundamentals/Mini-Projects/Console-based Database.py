@@ -1,5 +1,5 @@
 # A simple implementation of a basic people database
-import pickle   # Used for saving, Source: https://stackoverflow.com/questions/27745500/how-to-save-a-list-to-a-file-and-read-it-as-a-list-type  
+import pickle
 
 """
 Note: Instead of using flying functions, a class 'Database' could be created instead which turns all the
@@ -65,15 +65,15 @@ def search_by_name():
             print(f"Phone number: {person.phone_number}")
             print(f"Town: {person.town}\n")
     else:
-        print("No records found for this name.")
+        print("No records found for this name.\n")
 
 
 def search_by_town():
-    pass
+    print('To be implemented.')
 
 
 def search_by_tel_number():
-    pass
+    print('To be implemented.')
 
 
 def display_database():
@@ -95,7 +95,7 @@ def add_person():
             tel_number = int(input("Person's phone number: "))
             # if the number is not unique continue looping, else break the while loop
             if tel_number in tel_numbers_list:
-                print("Incorrect phone number. Try again.")
+                print("This telephone number has already been registered. Try again with another one.")
                 continue
             break
         except ValueError:
@@ -109,16 +109,16 @@ def add_person():
 
 
 def delete_person():
-    pass
+    print('To be implemented.')
 
 
 def update_person_info():
-    pass
+    print('To be implemented.')
 
 
 def main():
-    global database
-    try:
+    global database     # so we can work with the global variable
+    try:                # try loading the database
         with open('save.pickle', 'rb') as load_file:
             database = pickle.load(load_file)
     except FileNotFoundError:
