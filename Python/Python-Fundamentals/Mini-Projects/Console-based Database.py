@@ -1,5 +1,7 @@
 # A simple implementation of a basic people database
 import pickle
+# The pickle module is used for saving
+# Credits: https://stackoverflow.com/questions/27745500/how-to-save-a-list-to-a-file-and-read-it-as-a-list-type
 
 """
 Note: Instead of using flying functions, a class 'Database' could be created instead which turns all the
