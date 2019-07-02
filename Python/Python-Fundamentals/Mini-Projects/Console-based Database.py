@@ -4,8 +4,8 @@ import pickle
 # Credits: https://stackoverflow.com/questions/27745500/how-to-save-a-list-to-a-file-and-read-it-as-a-list-type
 
 """
-Note: Instead of using flying functions, a class 'Database' could be created instead which turns all the
-database functions into methods and encapsulates the information.
+Note: Instead of using flying functions, a class 'Database' which turns all the database functions into methods
+and encapsulates the information could be created.
 """
 database = []  # global variable to be used to store the database
 
@@ -49,7 +49,7 @@ def display_menu():
     print("Press 7 to update person's information.")
     print("Choose your move: ", end='')
     choice = input().upper()
-    while choice.upper() not in map(str, [1, 2, 3, 4, 5, 6, 7]):
+    while choice not in map(str, [1, 2, 3, 4, 5, 6, 7]):
         print('Invalid command. Please enter a value between 1 and 7.')
         choice = input().upper()
     print("====================================================================================================")
@@ -67,15 +67,37 @@ def search_by_name():
             print(f"Phone number: {person.phone_number}")
             print(f"Town: {person.town}\n")
     else:
-        print("No records found for this name.\n")
+        print(f"No records found for '{name}'.\n")
+        # print("No records found for this name.\n")
 
 
 def search_by_town():
-    print('To be implemented.')
+    print('You have chosen to search by town.')
+    town = input("Enter a town: ")
+    filtered_towns_list = list(filter(lambda p: p.town == town, database))
+    if filtered_towns_list:
+        print(f"Number of records found: {len(filtered_towns_list)}\n")
+        for person in filtered_towns_list:
+            print(f"Name: {person.name}")
+            print(f"Phone number: {person.phone_number}")
+            print(f"Town: {person.town}\n")
+    else:
+        print(f"No records found for '{town}'.\n")
+        # print("No records found for this town.\n")
 
 
 def search_by_tel_number():
-    print('To be implemented.')
+    print('You have chosen to search by phone number.')
+    phone_number = input("Enter the telephone number: ")
+    filtered_phones_list = list(filter(lambda p: p.phone_number == int(phone_number), database))
+    if filtered_phones_list:
+        for person in filtered_phones_list:
+            print(f"Name: {person.name}")
+            print(f"Phone number: {person.phone_number}")
+            print(f"Town: {person.town}\n")
+    else:
+        print(f"No records found for '{phone_number}'.\n")
+        # print("No records found for this telephone number.\n")
 
 
 def display_database():
@@ -89,8 +111,14 @@ def display_database():
 def add_person():
     print('You have chosen to add a new person to the database.')
 
-    name = input("Name of the person: ")
+    while True:
+        name = input("Name of the person: ")
+        if 2 > len(name) < 255:
+            print("Invalid name. Try again.")
+            continue
+        break
 
+    # -----------------------------------------------------------------------------------------------------------
     tel_numbers_list = [p.phone_number for p in database]
     while True:
         try:
@@ -99,11 +127,20 @@ def add_person():
             if tel_number in tel_numbers_list:
                 print("This telephone number has already been registered. Try again with another one.")
                 continue
+            elif 3 > len(str(tel_number)) < 15:
+                print("Invalid phone number. Try again.")
+                continue
             break
         except ValueError:
-            print("Incorrect phone number. Try again.")
+            print("Invalid phone number. Try again.")
+    # -----------------------------------------------------------------------------------------------------------
 
-    town = input("Person's town: ")
+    while True:
+        town = input("Person's town: ")
+        if 2 > len(town) < 255:
+            print("Invalid town. Try again.")
+            continue
+        break
 
     new_person = Person(name, tel_number, town)
     database.append(new_person)
