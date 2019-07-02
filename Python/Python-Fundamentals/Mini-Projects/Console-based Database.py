@@ -17,8 +17,6 @@ class Person:
         self.town = town
 
 
-# Ideas for menu layout:
-# https://www.daniweb.com/programming/software-development/threads/501088/making-a-looping-menu-using-oop-on-python
 def pick_option(option):
     # Credits: https://jaxenter.com/implement-switch-case-statement-python-138315.html?
     menu = {
