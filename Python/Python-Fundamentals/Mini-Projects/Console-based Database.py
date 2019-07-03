@@ -34,7 +34,7 @@ def pick_option(option):
         func()
     except KeyError:
         print('Invalid command. Please enter a value between 1 and 6.')
-    # func = menu.get(option, lambda: 'Invalid command. Please enter a value between 1 and 7.')
+    # func = menu.get(option, lambda: 'Invalid command. Please enter a value between 1 and 6.')
 
 
 def display_menu():
