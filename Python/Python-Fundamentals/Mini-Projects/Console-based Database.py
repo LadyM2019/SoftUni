@@ -121,7 +121,7 @@ def add_person():
 
     while True:
         name = input("Name of the person: ")
-        if 2 > len(name) < 255:
+        if 2 > len(name) < 255 or not name.isalpha():
             print("Invalid name. Try again.")
             continue
         break
@@ -146,7 +146,7 @@ def add_person():
 
     while True:
         town = input("Person's town: ")
-        if 2 > len(town) < 255:
+        if 2 > len(town) < 255 or not town.isalpha():
             print("Invalid town. Try again.")
             continue
         break
