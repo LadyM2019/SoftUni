@@ -61,11 +61,7 @@ def search_by_name():
     name = input("Name of the person: ")
     filtered_names_list = list(filter(lambda p: p.name == name, database))
     if filtered_names_list:
-        print(f"Number of records found: {len(filtered_names_list)}\n")
-        for person in filtered_names_list:
-            print(f"Name: {person.name}")
-            print(f"Phone number: {person.phone_number}")
-            print(f"Town: {person.town}\n")
+        display_people(filtered_names_list)
     else:
         print(f"No records found for '{name}'.")
         # print("No records found for this name.\n")
@@ -78,11 +74,7 @@ def search_by_town():
     town = input("Enter a town: ")
     filtered_towns_list = list(filter(lambda p: p.town == town, database))
     if filtered_towns_list:
-        print(f"Number of records found: {len(filtered_towns_list)}\n")
-        for person in filtered_towns_list:
-            print(f"Name: {person.name}")
-            print(f"Phone number: {person.phone_number}")
-            print(f"Town: {person.town}\n")
+        display_people(filtered_towns_list)
     else:
         print(f"No records found for '{town}'.")
         # print("No records found for this town.\n")
@@ -95,10 +87,7 @@ def search_by_tel_number():
     phone_number = input("Enter the telephone number: ")
     filtered_phones_list = list(filter(lambda p: p.phone_number == int(phone_number), database))
     if filtered_phones_list:
-        for person in filtered_phones_list:
-            print(f"Name: {person.name}")
-            print(f"Phone number: {person.phone_number}")
-            print(f"Town: {person.town}\n")
+        display_people(filtered_phones_list)
     else:
         print(f"No records found for '{phone_number}'.")
         # print("No records found for this telephone number.\n")
@@ -107,11 +96,7 @@ def search_by_tel_number():
 
 def display_database():
     print('-'*50)
-    print(f"Number of records in the database: {len(database)}\n")
-    for person in database:
-        print(f"Name: {person.name}")
-        print(f"Phone number: {person.phone_number}")
-        print(f"Town: {person.town}\n")
+    display_people(database)
     print('-'*50+'\n\n')
 
 
@@ -209,6 +194,14 @@ def load():
             database = pickle.load(load_file)
     except FileNotFoundError:
         pass
+
+
+def display_people(lst):
+    print(f"Number of records found: {len(lst)}\n")
+    for person in lst:
+        print(f"Name: {person.name}")
+        print(f"Phone number: {person.phone_number}")
+        print(f"Town: {person.town}\n")
 
 
 def save():
