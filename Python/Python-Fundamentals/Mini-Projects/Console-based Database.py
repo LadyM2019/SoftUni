@@ -105,8 +105,15 @@ def add_person():
     print('You have chosen to add a new person to the database.')
 
     while True:
+        flag = 1
         name = input("Name of the person: ")
-        if 2 > len(name) < 255 or not name.isalpha():
+        name_list = name.split(" ")
+        if 2 > len(name) < 255:
+            flag = 0
+        for names in name_list:  #Check the name field for 2 or more names
+            if not names.isalpha():
+                flag = 0
+        if flag == 0:
             print("Invalid name. Try again.")
             continue
         break
